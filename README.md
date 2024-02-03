@@ -1,0 +1,2 @@
+Este código realiza una búsqueda binaria en una lista enlazada de objetos Comparable. Si el objeto objetivo se encuentra en la lista, el método binarySearch devuelve el índice del objeto en la lista. Si el objeto objetivo no se encuentra en la lista, el método devuelve -1.
+Además se utiliza la interfaz Comparable, por lo que solo funcionará con clases que implementen esta interfaz y hayan definido el método compareTo. Si se intenta utilizar con una clase que no implementa Comparable, provocará un error.
